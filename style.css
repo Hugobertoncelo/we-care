@@ -80,3 +80,43 @@ p {
   line-height: 34px;
   color: #000000;
 }
+
+@media screen and (max-width: 900px){
+  header{
+    margin: 44px 0 144px 0;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo-image{
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+  }
+  section{
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1{
+    font-size: 60px;
+    line-height: 73px;
+  }
+  h2{
+    font-size: 40px;
+    line-height: 49px;
+  }
+  p{
+    font-size: 20px;
+    line-height: 24px;
+    width: 80%;
+    text-align: center;
+  }
+  .button-header{
+    margin-top: 20px;
+  }
+  .button-main{
+    margin-top: 20px;
+  }
+} 
